@@ -2,7 +2,7 @@ import serial
 import time
 
 # Open a serial connection to Roomba
-ser = serial.Serial(port='/dev/ttyAMA0', baudrate=115200)
+ser = serial.Serial(port='/dev/ttyUSB0', baudrate=115200)
 
 # Assuming the robot is awake, start safe mode so we can hack.
 ser.write('\x83')
