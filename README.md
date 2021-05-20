@@ -10,3 +10,7 @@ Helpful links and notes:
 - Serial port's fuse supports 0.2A which pretty much restricts to serial communication. RX and TX lines are rated for 5V so I will stick to USB connection for communicating with the Pi. 
 - https://www.irobotweb.com/-/media/MainSite/PDFs/About/STEM/Create/RaspberryPi_Tutorial.pdf
 - http://blog.mindfront.net/2017/06/roomba-dashboard-cli-dashboard-for.html
+
+- Needed this ftdi driver while developing on Windows:
+- https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all
+- https://cdn.sparkfun.com/assets/learn_tutorials/7/4/CDM21228_Setup.exe
